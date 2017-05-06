@@ -4,8 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-	<bean id="helloBean" class="bean.HelloWorld">
-		<property name="name" value="Nhat" />
-	</bean>
+<!-- 	<bean id="helloWorld" class="scope.HelloWorld" scope = "singleton">	</bean> -->
+	<bean id="helloWorld" class="scope.HelloWorld" scope = "prototype">	</bean>
 
 </beans>
